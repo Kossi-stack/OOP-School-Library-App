@@ -34,8 +34,9 @@ Show your support
 Give a ⭐️ if you like this project!
 Acknowledgments
 
-    A special thanks to Microverse for inspiring this project. We are indebted to you all at Microverse
-    A special thanks goes to all our peers at Microverse for being there for us.
+A special thanks to Microverse for inspiring this project. We are indebted to you all at Microverse
+
+A special thanks goes to all our peers at Microverse for being there for us.
 
 📝 License
 
