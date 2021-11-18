@@ -1,4 +1,4 @@
-require_relative './person'
+require './person'
 
 class Student < Person
   def initialize(_classrom, age, name = 'Unknown', parent_permission: true)
