@@ -1,5 +1,3 @@
-
-
 class App
   def initialize
     @people = []
@@ -156,19 +154,18 @@ def create_a_rental
 end
 
 def list_rentals_by_person_id
-    print 'ID of person: '
-    id = gets.chomp.to_i
-  
-    puts 'Rentals:'
-    @rentals.each do |rental|
-      puts "Date: #{rental.date}, Book: '#{rental.book.title}' by #{rental.book.author}" if rental.person.id == id
-    end
-    sleep 0.75
-    menu
+  print 'ID of person: '
+  id = gets.chomp.to_i
+
+  puts 'Rentals:'
+  @rentals.each do |rental|
+    puts "Date: #{rental.date}, Book: '#{rental.book.title}' by #{rental.book.author}" if rental.person.id == id
   end
-  
-  def main
-    app = App.new
-    app.run
-  end
-  
+  sleep 0.75
+  menu
+end
+
+def main
+  app = App.new
+  app.run
+end
