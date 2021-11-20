@@ -1,3 +1,12 @@
+require './person'
+require './student'
+require './teacher'
+require './classroom'
+require './book'
+require './rental'
+
+# rubocop:disable Metrics
+
 class App
   def initialize
     @people = []
@@ -169,3 +178,5 @@ def main
   app = App.new
   app.run
 end
+# rubocop:enable Metrics
+main
